@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | GitHub user search app</title>
+  
+</head>
+<body> 
+  <header>
+    <div class="devfinder">devfinder</div>
+    <div class="mode">
+      <div class="modetext">DARK</div>
+      <div class="modeicon"><img src="./assets/icon-moon.svg" alt="dark"></div>
+      <div class="modeiconSun hide"><img src="./assets/icon-sun.svg" alt="sun"></div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="search">
+      <div class="searchicon"> <!-- <img src="./assets/icon-search.svg" alt="search"> --> </div>
+      <div class="searchtext"><input id="input" type="text" placeholder="Search GitHub username...">
+        <div class="error hide">No result</div> </div>
+      <button class="searchbutton" id="search">Search</button>
+    </div>
+    
+    <div class="profile">
+      <div class="head">
+        <div class="userlogo">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/583231?v=4">
+        </div>
+        <div class="maininfo">
+          <div class="name">The Octocat</div>
+          <div class="userName">@octocat</div>
+          <div class="date">Joined 25 Jan 2011</div>
+        </div>
+      </div>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="title">Repos</div>
+          <div class="number repos">8</div>
+        </div>
+        <div class="stat">
+          <div class="title">Followers</div>
+          <div class="number followers">3938</div>
+        </div>
+        <div class="stat">
+          <div class="title">Following</div>
+          <div class="number following">9</div>
+        </div>
+      </div>
+      <div class="links">
+        <div class="linkwrap lo">
+          <div class="icon">
+            <img src="./assets/icon-location.svg" alt="">
+          </div>
+          <a href="" class="link location">San Francisco</a>
+        </div>
+        <div class="linkwrap bl">
+          <div class="icon">
+            <img src="./assets/icon-website.svg" alt="">
+          </div>
+          <a href="" class="link website">https://github.blog</a>
+        </div>
+        <div class="linkwrap tw">
+          <div class="icon">
+            <img src="./assets/icon-twitter.svg" alt="">
+          </div>
+          <a href="" class="link twitter">Not Available</a>
+        </div>
+        <div class="linkwrap co">
+          <div class="icon">
+            <img src="./assets/icon-company.svg" alt="">
+          </div>
+          <a href="" class="link company">@github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
